@@ -216,6 +216,8 @@ a {
   padding: 10px 0 0 0;
 }
 #container #mobile-nav #header .profilepic {
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.24);
   display: block;
   position: relative;
   z-index: 100;
@@ -334,6 +336,10 @@ a {
     padding: 10px;
     margin: 10px;
     font-size: 14px;
+  }
+  #container .article .article-inner {
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.24);
+    box-shadow: 0 0px 0px rgba(0,0,0,0.24);
   }
   #container .article .article-entry {
     padding-left: 0;
@@ -487,6 +493,8 @@ a {
   color: #b0a0aa;
 }
 #header .profilepic {
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.24);
   text-align: center;
   display: block;
   border: 5px solid #fff;
